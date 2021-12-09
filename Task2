@@ -1,0 +1,43 @@
+const scores = [
+  {
+    marks: 32,
+    name: "Yvette Merritt"
+  },
+  {
+    marks: 57,
+    name: "Lillian Ellis"
+  },
+  {
+    marks: 22,
+    name: "Mccall Carter"
+  },
+  {
+    marks: 21,
+    name: "Pate Collier"
+  },
+  {
+    marks: 91,
+    name: "Debra Beard"
+  },
+  {
+    marks: 75,
+    name: "Nettie Hancock"
+  },
+  {
+    marks: 20,
+    name: "Hatfield Hodge"
+  }
+];
+let t2=scores.filter(obj => obj.marks >= 40 )
+console.log(t2);
+
+OUTPUT:
+Array(3) [ {…}, {…}, {…} ]
+​
+0: Object { marks: 57, name: "Lillian Ellis" }
+​
+1: Object { marks: 91, name: "Debra Beard" }
+​
+2: Object { marks: 75, name: "Nettie Hancock" }
+​
+length: 3
