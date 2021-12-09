@@ -1,0 +1,13 @@
+//without
+
+let arr=[1,2,3];
+let without= function(num,x,y){
+  let ans= num.filter(item=> item!=x && item!=y );
+   return ans
+}
+ console.log(without(arr,1,2));
+ 
+ OUPUT:
+ Array [ 3 ]
+ 
+
